@@ -1,0 +1,35 @@
+
+Frame "scene" {
+	Version 50264 
+	Layer "レイヤー1" {
+		Board "板" {
+			0 0 1920 1080  
+			Color { 255 255 255 255   AntiAlias 2 }
+		}
+	}
+	Image "イメージ" {
+		0 0 1920 1080  CC 
+		Name "梅フレーム.png" 0 
+	} 
+	StringBox {
+		213 213 1495 658  H CL CL 44 
+		Style "LSN太角ゴシック体" 
+		Size 74 100 
+		Color { 0 0 0 255   AntiAlias 2 }
+		Space -20 
+		Proportional 
+		"ご退職おめでとうございます。\n" 
+		"いくつになっても向上心を持ち、何事にも\n" 
+		"一生懸命な姿勢に私たちも刺激を受けます。\n" 
+		"大病に負けずにがんばって、益々元気で\n" 
+		"長生きしてくださいね。" 
+	} 
+	StringBox {
+		1320 790 473 152  H HL CL 32 
+		Style "LSN太角ゴシック体" 
+		Size 58 100 
+		Color { 0 0 0 255   AntiAlias 2 }
+		Proportional 
+		"ラム太" 
+	} 
+} 

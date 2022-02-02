@@ -1,0 +1,25 @@
+Frame "シーン2" {
+	Version 50264 
+	Layer "レイヤー1" {
+	Image "イメージ" {
+			0 0 1920 1080  CC
+			Name "リボンフレーム.png" 0 
+		} 
+		StringBox {
+			374 285 1165 548  H HLl CL 32 
+			Style "LSN太角ゴシック体" 
+			Size 78 100 
+			Color { 229 0 79 255   AntiAlias 2 }
+			Proportional 
+			"message1" 
+		} 
+		String {
+			675 907 872  H TL 
+			Style "LSN太角ゴシック体" 
+			Size 72 100 
+			Color { 229 0 79 255   AntiAlias 2 }
+			Proportional 
+			"message2" 
+		} 
+	} 
+}

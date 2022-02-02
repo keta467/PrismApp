@@ -1,0 +1,38 @@
+Frame "D:\\scene\\scene (2)" {
+	Version 50264 
+	Layer "レイヤー1" {
+		 Image "イメージ" {
+			coordinateX coordinateY imageWidth imageHeigth  CC 
+			Path "userIdString" 
+			Name "import.jpg" 0 
+			Resize byRect 
+                }
+                StringBox {
+                        556 950 808 66  H CL CL 12
+                        Style "LSNマール体"
+                        Size 54 100
+                        Color { 255 255 255 255   AntiAlias 2 }
+                        Space -20
+                        Proportional
+                        "message1"
+                }
+                StringBox {
+                        556 1020 808 70  H CL CL 12
+                        Style "LSNマール体"
+                        Size 35 100
+                        Color { 255 255 255 255   AntiAlias 2 }
+                        Space -20
+                        Proportional
+                        "緯度 message2　経度 message3"
+                }
+                StringBox {
+                        hizukeWidth 6 416 68  H CL CL 12
+                        Style "LSNマール体"
+                        Size 35 100
+                        Color { 255 255 255 255   AntiAlias 2 }
+                        Space -20
+                        Proportional
+                        "message4"
+                }
+	} 
+} 

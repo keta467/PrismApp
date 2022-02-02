@@ -1,0 +1,12 @@
+D:\PrismApp\app\PrismApp\bin\Release\PrismApp.exe.config
+D:\PrismApp\app\PrismApp\bin\Release\PrismApp.exe
+D:\PrismApp\app\PrismApp\bin\Release\PrismApp.pdb
+D:\PrismApp\app\PrismApp\bin\Release\ExifLib.dll
+D:\PrismApp\app\PrismApp\bin\Release\Newtonsoft.Json.dll
+D:\PrismApp\app\PrismApp\obj\Release\PrismApp.csprojAssemblyReference.cache
+D:\PrismApp\app\PrismApp\obj\Release\Interop.PRISMPLAYERLib.dll
+D:\PrismApp\app\PrismApp\obj\Release\PrismApp.csproj.ResolveComReference.cache
+D:\PrismApp\app\PrismApp\obj\Release\PrismApp.csproj.CoreCompileInputs.cache
+D:\PrismApp\app\PrismApp\obj\Release\PrismApp.csproj.CopyComplete
+D:\PrismApp\app\PrismApp\obj\Release\PrismApp.exe
+D:\PrismApp\app\PrismApp\obj\Release\PrismApp.pdb

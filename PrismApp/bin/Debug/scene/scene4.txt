@@ -1,0 +1,35 @@
+Frame "シーン2" {
+	Version 50264 
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			0 0 1920 1080  CC
+			Name "トルコ桔梗フレーム.png" 0 
+		} 
+		StringBox {
+			267 160 998 112  H HL H 30 
+			Style "LSN太角ゴシック体" 
+			Size 96 100 
+			Color { 255 255 255 255   AntiAlias 2 }
+			Space 60 
+			Proportional 
+			"心よりお悔やみ\n" 
+			"申し上げます" 
+		} 
+		StringBox {
+			284 525 985 410  H HLl HL 36 
+			Style "LSN太角ゴシック体" 
+			Size 58 100 
+			Color { 0 0 0 255   AntiAlias 2 }
+			Proportional 
+			"message1" 
+		} 
+		String {
+			344 998 872  H TL 
+			Style "LSN太角ゴシック体" 
+			Size 58 96 
+			Color { 0 0 0 255   AntiAlias 2 }
+			Proportional 
+			"message2" 
+		} 
+	} 
+}

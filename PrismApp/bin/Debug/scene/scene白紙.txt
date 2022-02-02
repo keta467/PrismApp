@@ -1,0 +1,18 @@
+Frame "シーン2" {
+	Version 50264 
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			0 0 1920 1080  CC 
+			Path "D:\\LINEApp\\scene" 
+			Name "白紙.png" 0 
+		} 
+		StringBox {
+			198 208 1525 666  H HLl CL 32 
+			Style "LSN太角ゴシック体" 
+			Size 72 100 
+			Color { 0 0 0 255   AntiAlias 2 }
+			Proportional 
+			"messageString" 
+		} 
+	} 
+}

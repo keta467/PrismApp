@@ -1,0 +1,43 @@
+Frame "シーン2" {
+	Version 50264 
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			0 0 1920 1080  CC
+			Name "花フレーム.png" 0 
+		} 
+		StringBox {
+			358 323 1215 112  H HL C 32 
+			Style "LSN太角ゴシック体" 
+			Size 86 100 
+			Color { 228 0 127 255   AntiAlias 2 }
+			Effect {
+				Edge {
+					4 
+					Color { 255 255 255 255  }
+				}
+				GaussDrop {
+					1 SE  ShadeRate 10 
+					Color { 0 0 0 128  }
+				}
+			}
+			Proportional 
+			"ご出産おめでとうございます！" 
+		} 
+		StringBox {
+			382 468 1195 286  H HL CL 32 
+			Style "LSN太角ゴシック体" 
+			Size 54 100 
+			Color { 228 0 127 255   AntiAlias 2 }
+			Proportional 
+			"message1" 
+		} 
+		String {
+			650 822 872  H TL 
+			Style "LSN太角ゴシック体" 
+			Size 56 100 
+			Color { 228 0 127 255   AntiAlias 2 }
+			Proportional 
+			"message2" 
+		} 
+	} 
+}

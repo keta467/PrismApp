@@ -1,0 +1,29 @@
+Frame "シーン2" {
+	Version 50264 
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			1027 93 650 867 CC 
+			Path "D:\\Files\\public\\users\\U1b9576779d3135dd97440a912fe67745" 
+			Name "import.jpg" 0 
+			ExpandForDevice 
+			Offset ( 0 ) ( 0 ) 
+			Resize byRect 
+		} 
+		Image "イメージ" {
+			117 3 1686 1075  CC 
+			Name "HBフレーム.png" 0 
+			ExpandForDevice 
+			Offset ( 0 ) ( 0 ) 
+			Resize byRect 
+		} 
+		StringBox {
+			189 509 747 348  H CL CL 44 
+			Style "LSN太角ゴシック体" 
+			Size 45 100 
+			Color { 0 0 0 255   AntiAlias 2 }
+			Space -20 
+			Proportional 
+			"ほんまかいな" 
+		} 
+	} 
+}

@@ -1,0 +1,27 @@
+
+Frame "D:\\scene\\scene (2)" {
+	Version 50264 
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			coordinateX coordinateY imageWidth imageHeigth CC 
+			Path "userIdString" 
+			Name "import.jpg" 0 
+			ExpandForDevice 
+			Offset ( 0 ) ( 0 ) 
+			Resize byRect 
+		} 
+		Image "イメージ" {
+			208 0 1522 1080  CC
+			Name "SPフレーム.png" 0 
+		} 
+		StringBox {
+			1189 759 519 188  H CL CL 0 
+			Style "LSN太明朝体" 
+			Size 35 100 
+			Color { 255 255 255 255   AntiAlias 2 }
+			Space -20 
+			Proportional 
+			"message1" 
+		} 
+	} 
+} 

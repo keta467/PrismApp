@@ -1,0 +1,10 @@
+
+Frame "D:\\graph\\scene\\scene" {
+	Version 50264 
+	Layer "ƒŒƒCƒ„[1" {
+		Board "”Â" {
+			0 0 1920 1080  
+			Color { 255 255 255 255   AntiAlias 2 }
+		}
+	}
+}

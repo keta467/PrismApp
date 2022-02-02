@@ -1,0 +1,26 @@
+Frame "シーン2" {
+	Version 50264 
+	Layer "レイヤー1" {
+		Image "イメージ" {
+			0 0 1920 1080  CC
+			Name "梅フレーム.png" 0 
+		} 
+		StringBox {
+			213 213 1495 658  H CL CL 44 
+			Style "LSN太角ゴシック体" 
+			Size 74 100 
+			Color { 0 0 0 255   AntiAlias 2 }
+			Space -20 
+			Proportional 
+			"message1" 
+		} 
+		String {
+			757 944 872  H TL 
+			Style "LSN太角ゴシック体" 
+			Size 56 100 
+			Color { 0 0 0 255   AntiAlias 2 }
+			Proportional 
+			"message2" 
+		} 
+	} 
+}
