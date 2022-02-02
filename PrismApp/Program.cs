@@ -102,7 +102,7 @@ namespace PrismApp
             Console.WriteLine(messageCsv);
         }
 
-        //komentowotukaisia
+        //コメントを追加しました。
         public Frame RFrame()
         {
             Frame frame;
