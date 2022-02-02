@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PrismApp\\app\\PrismApp\\PrismApp.csproj": {}
+    "D:\\PrismApp\\PrismApp\\PrismApp.csproj": {}
   },
   "projects": {
-    "D:\\PrismApp\\app\\PrismApp\\PrismApp.csproj": {
+    "D:\\PrismApp\\PrismApp\\PrismApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PrismApp\\app\\PrismApp\\PrismApp.csproj",
+        "projectUniqueName": "D:\\PrismApp\\PrismApp\\PrismApp.csproj",
         "projectName": "PrismApp",
-        "projectPath": "D:\\PrismApp\\app\\PrismApp\\PrismApp.csproj",
+        "projectPath": "D:\\PrismApp\\PrismApp\\PrismApp.csproj",
         "packagesPath": "C:\\Users\\irie\\.nuget\\packages\\",
-        "outputPath": "D:\\PrismApp\\app\\PrismApp\\obj\\",
+        "outputPath": "D:\\PrismApp\\PrismApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

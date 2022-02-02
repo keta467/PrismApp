@@ -64,7 +64,7 @@ namespace PrismApp
 
                 // 画像ファイルを読み込む
                 StreamWriter writer = new StreamWriter(res.OutputStream);
-                string inFileName = @"D:\PrismApp\ok.png";
+                string inFileName = prismPlayerClass.Saveimagepath;
                 FileStream inFile = new System.IO.FileStream(inFileName, FileMode.Open, FileAccess.Read);
                 byte[] bs = new byte[inFile.Length];
                 inFile.Read(bs, 0, (int)inFile.Length);
