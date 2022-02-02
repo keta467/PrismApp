@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace PrismApp
 {
@@ -12,11 +13,12 @@ namespace PrismApp
         public PrismPlayer player;
         private string Defaultscmpath
         {
-            get { return $@"D:\\PrismApp\\scene\\Default.scm"; }
+            get { return ConfigurationManager.AppSettings["Defaultscmpath"]; }
         }
+        
         public virtual string Saveimagepath
         {
-            get { return $@"D:\\PrismApp\\ok.png"; }
+            get { return ConfigurationManager.AppSettings["Saveimagepath"]; }
         }
 
         public virtual string DumpArea
@@ -70,7 +72,8 @@ namespace PrismApp
         public int DumpScene()
         {
             //DumpScene D:\\graph\\ok.png　        //DumpScene Fixed “開票速報” “D:¥¥Sokuho.scn”
-            Cheak(player, "DumpScene Fixed \"scene\" \"D:¥¥PrismApp¥¥PrismApp.scn\"");
+            var DumpScenePath = ConfigurationManager.AppSettings["DumpScenePath"];
+            Cheak(player, "DumpScene Fixed \"scene\" \"" + DumpScenePath + "\"");
             Console.WriteLine("DumpScene完了");
             return 0;
         }
