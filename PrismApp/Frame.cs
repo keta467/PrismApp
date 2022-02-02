@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace PrismApp
 {
     public class Frame
     {
+        public string ImageFolderPath
+        {
+            get { return ConfigurationManager.AppSettings["ImageFolderPath"]; }
+        }
         public virtual void Kumitate(MyPrismClass myPrismClass, string[] strs)
         {
         }
@@ -16,7 +21,7 @@ namespace PrismApp
     {
         public string 花フレーム_ユニット
         {
-            get { return "Image \"イメージ\" {0 0 1920 1080  CC Name \"花フレーム.png\" 0 }"; }
+            get { return "Image \"イメージ\" {0 0 1920 1080  CC  Path \"" + ImageFolderPath + "\" Name \"花フレーム.png\" 0 }"; }
         }
         public string ご出産おめでとうございます_ユニット
         {
@@ -47,7 +52,7 @@ namespace PrismApp
     {
         public string リボンフレーム_ユニット
         {
-            get { return "Image \"イメージ\" {0 0 1920 1080  CC Name \"リボンフレーム.png\" 0 }"; }
+            get { return "Image \"イメージ\" {0 0 1920 1080  CC  Path \"" + ImageFolderPath + "\" Name \"リボンフレーム.png\" 0 }"; }
         }
         public string メッセージ本文＿ユニット(string message)
         {
@@ -73,9 +78,10 @@ namespace PrismApp
 
     public class UmeFrame : Frame
     {
+
         public string 梅フレーム_ユニット
         {
-            get { return "Image \"イメージ\" {0 0 1920 1080  CC Name \"梅フレーム.png\" 0 }"; }
+            get { return "Image \"イメージ\" {0 0 1920 1080  CC  Path \"" + ImageFolderPath + "\" Name \"梅フレーム.png\" 0 }"; }
         }
         public string メッセージ本文＿ユニット(string message)
         {
@@ -100,9 +106,10 @@ namespace PrismApp
     }
     public class TorukoFrame : Frame
     {
+
         public string トルコフレーム_ユニット
         {
-            get { return "Image \"イメージ\" {0 0 1920 1080  CC Name \"トルコ桔梗フレーム.png\" 0 }"; }
+            get { return "Image \"イメージ\" {0 0 1920 1080  CC  Path \"" + ImageFolderPath + "\" Name \"トルコ桔梗フレーム.png\" 0 }"; }
         }
         public string お悔やみ申し上げます_ユニット
         {

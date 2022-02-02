@@ -9,41 +9,27 @@ Frame "scene" {
 	}
 	Image "イメージ" {
 		0 0 1920 1080  CC 
-		Name "花フレーム.png" 0 
+		Path "D:\\PrismApp\\scene\\images" 
+		Name "梅フレーム.png" 0 
 	} 
 	StringBox {
-		353 323 1215 112  H CL C 32 
+		213 213 1495 658  H CL CL 44 
 		Style "LSN太角ゴシック体" 
-		Size 86 100 
-		Color { 228 0 127 255   AntiAlias 2 }
-		Effect {
-			Edge {
-				4 
-				Color { 255 255 255 255  }
-			}
-			GaussDrop {
-				1 SE  ShadeRate 10 
-				Color { 0 0 0 128  }
-			}
-		}
+		Size 74 100 
+		Color { 0 0 0 255   AntiAlias 2 }
+		Space -20 
 		Proportional 
-		"ご出産おめでとうございます!" 
+		"●●さんは、入社以来永きに渡り●●発展の為に、\n" 
+		"常に多くの社員の先頭に立って多大な貢献をされました。\n" 
+		"この度定年を迎えるに当たり、\n" 
+		"お世話になった社員一同、深く感謝申し上げます。" 
 	} 
 	StringBox {
-		382 468 1195 286  H HL CL 32 
+		1320 790 473 152  H HL CL 32 
 		Style "LSN太角ゴシック体" 
-		Size 54 100 
-		Color { 228 0 127 255   AntiAlias 2 }
+		Size 58 100 
+		Color { 0 0 0 255   AntiAlias 2 }
 		Proportional 
-		"●●さん、出産お疲れさまでした。\n" 
-		"新しい家族ています。vdsjksd" 
-	} 
-	StringBox {
-		1234 726 531 164  H HL CL 32 
-		Style "LSN太角ゴシック体" 
-		Size 54 100 
-		Color { 228 0 127 255   AntiAlias 2 }
-		Proportional 
-		"ラム太dd" 
+		"ラム太" 
 	} 
 } 

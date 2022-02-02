@@ -2,7 +2,7 @@
 Title "Default"
 ScenePath ""
 CommonScenePath ""
-ImagePath "D:\\Files\\scene\\images"
+ImagePath ""
 DataPath  ""
 TexturePath	"D:\\Lambda\\Bin.V2\\TEXTURE"
 LogoPath "D:\\Lambda\\Bin.V2\\Logo"
