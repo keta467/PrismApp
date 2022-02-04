@@ -191,4 +191,49 @@ namespace PrismApp
             myPrismClass.AddUnit(名前＿ユニット(strs[1]));
         }
     }
+    public class HBFrame : Frame
+    {
+        private void saveimage(string base64data)
+        {
+            //var str = value.Replace("data:image/jpeg;base64,", "");
+            //画像を保存
+            byte[] bytes = Convert.FromBase64String(base64data);
+
+            Image image;
+            using (MemoryStream ms = new MemoryStream(bytes))
+            {
+                image = Image.FromStream(ms);
+                image.Save(UserImagePath, System.Drawing.Imaging.ImageFormat.Png);
+            }
+        }
+
+        public string ユーザー画像_ユニット
+        {
+            get { return "Image \"イメージ\" {1116 216 604 413  CC  Path \"" + ImageFolderPath + "\" Name \"import.png\" 0 Resize byRect}"; }
+        }
+        public string HBフレーム_ユニット
+        {
+            get { return "Image \"イメージ\" {0 0 1920 1080  CC  Path \"" + ImageFolderPath + "\" Name \"HBフレーム.png\" 0 }"; }
+        }
+        public string メッセージ本文＿ユニット(string message)
+        {
+            return "StringBox {721 636 966 216  H HLl CL 32 Style \"LSN太明朝体\" Size 63 100  Color { 0 0 0 255   AntiAlias 2 } Proportional \"" + message + "\" }";
+        }
+
+        public string 名前＿ユニット(string message)
+        {
+            return "StringBox {1235 842 430 90  H HLl CL 32 Style \"LSN太明朝体\" Size 63 100 Color { 0 0 0 255   AntiAlias 2 }Proportional \"" + message + "\" }";
+        }
+
+        public override void Kumitate(MyPrismClass myPrismClass, string[] strs)
+        {
+            saveimage(strs[2]);
+
+
+            myPrismClass.AddUnit(ユーザー画像_ユニット);
+            myPrismClass.AddUnit(HBフレーム_ユニット);
+            myPrismClass.AddUnit(メッセージ本文＿ユニット(strs[0]));
+            myPrismClass.AddUnit(名前＿ユニット(strs[1]));
+        }
+    }
 }

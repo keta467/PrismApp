@@ -8,7 +8,7 @@ Frame "scene" {
 		}
 	}
 	Image "イメージ" {
-		0 404 900 640  CC 
+		1116 216 604 413  CC 
 		Path "D:\\PrismApp\\scene\\images" 
 		Name "import.png" 0 
 		Resize byRect 
@@ -16,24 +16,23 @@ Frame "scene" {
 	Image "イメージ" {
 		0 0 1920 1080  CC 
 		Path "D:\\PrismApp\\scene\\images" 
-		Name "KOフレーム.png" 0 
+		Name "HBフレーム.png" 0 
 	} 
 	StringBox {
-		949 322 902 412  H HLl CL 32 
+		721 636 966 216  H HLl CL 32 
 		Style "LSN太明朝体" 
 		Size 63 100 
 		Color { 0 0 0 255   AntiAlias 2 }
 		Proportional 
-		"ご結婚おめでとうございます。\n" 
-		"これからはお二人で力を合わせて\n" 
-		"末永く幸せになってね！" 
+		"マリアちゃん\n" 
+		"誕生日おめでとう！また遊ぼうね" 
 	} 
 	StringBox {
-		1249 766 452 168  H HLl CL 32 
+		1235 842 430 90  H HLl CL 32 
 		Style "LSN太明朝体" 
 		Size 63 100 
 		Color { 0 0 0 255   AntiAlias 2 }
 		Proportional 
-		"ラム太" 
+		"健太" 
 	} 
 } 

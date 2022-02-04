@@ -123,8 +123,8 @@ namespace PrismApp
                 case "KOFrame":
                     frame = new KOFrame();
                     break;
-                case "6":
-                    frame = new HanaFrame();
+                case "HBFrame":
+                    frame = new HBFrame();
                     break;
                 case "7":
                     frame = new HanaFrame();
