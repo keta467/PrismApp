@@ -10,23 +10,32 @@ Frame "scene" {
 	Image "イメージ" {
 		0 0 1920 1080  CC 
 		Path "D:\\PrismApp\\scene\\images" 
-		Name "梅フレーム.png" 0 
+		Name "トルコ桔梗フレーム.png" 0 
 	} 
 	StringBox {
-		213 213 1495 658  H CL CL 44 
-		Style "LSN太角ゴシック体" 
-		Size 74 100 
-		Color { 0 0 0 255   AntiAlias 2 }
-		Space -20 
+		267 160 998 112  H HL H 30 
+		Style "LSN太明朝体" 
+		Size 96 100 
+		Color { 255 255 255 255   AntiAlias 2 }
+		Space 60 
 		Proportional 
-		"●●さんは、入社以来永きに渡り●●発展の為に、\n" 
-		"常に多くの社員の先頭に立って多大な貢献をされました。\n" 
-		"この度定年を迎えるに当たり、\n" 
-		"お世話になった社員一同、深く感謝申し上げます。" 
+		"心よりお悔やみ\n" 
+		"申し上げます" 
 	} 
 	StringBox {
-		1320 790 473 152  H HL CL 32 
-		Style "LSN太角ゴシック体" 
+		284 525 985 410  H HLl HL 36 
+		Style "LSN太明朝体" 
+		Size 58 100 
+		Color { 0 0 0 255   AntiAlias 2 }
+		Proportional 
+		"突然の訃報に接し、\n" 
+		"心から哀悼の意を表しますとともに、\n" 
+		"安らかにご永眠されますよう\n" 
+		"お祈りいたします。" 
+	} 
+	StringBox {
+		1110 880 473 152  H HL CL 32 
+		Style "LSN太明朝体" 
 		Size 58 100 
 		Color { 0 0 0 255   AntiAlias 2 }
 		Proportional 

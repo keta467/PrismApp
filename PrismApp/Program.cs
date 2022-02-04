@@ -120,11 +120,11 @@ namespace PrismApp
                 case "TorukoFrame":
                     frame = new TorukoFrame();
                     break;
-                case "5":
-                    frame = new HanaFrame();
+                case "KOFrame":
+                    frame = new KOFrame();
                     break;
-                case "6":
-                    frame = new HanaFrame();
+                case "HBFrame":
+                    frame = new HBFrame();
                     break;
                 case "7":
                     frame = new HanaFrame();
