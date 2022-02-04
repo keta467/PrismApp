@@ -121,18 +121,18 @@ namespace PrismApp
         }
         public string お悔やみ申し上げます_ユニット
         {
-            get { return "StringBox {267 160 998 112  H HL H 30 Style \"LSN太角ゴシック体\" Size 96 100 Color { 255 255 255 255 AntiAlias 2 }Space 60 Proportional \"心よりお悔やみ\\n申し上げます\" } "; }
+            get { return "StringBox {267 160 998 112  H HL H 30 Style \"LSN太明朝体\" Size 96 100 Color { 255 255 255 255 AntiAlias 2 }Space 60 Proportional \"心よりお悔やみ\\n申し上げます\" } "; }
         }
         public string メッセージ本文＿ユニット(string message)
         {
-            return "StringBox {284 525 985 410  H HLl HL 36 Style \"LSN太角ゴシック体\" Size 58 100  Color { 0 0 0 255   AntiAlias 2 } Proportional \"" + message + "\" }";
+            return "StringBox {284 525 985 410  H HLl HL 36 Style \"LSN太明朝体\" Size 58 100  Color { 0 0 0 255   AntiAlias 2 } Proportional \"" + message + "\" }";
         }
 
         //"String {650 822 872  H TL Style \"LSN太角ゴシック体\"Size 56 100 Color { 228 0 127 255   AntiAlias 2 } Proportional　\"" + message2 + "\"}";
         //1304 786 473 152  H HL CL 32 
         public string 名前＿ユニット(string message)
         {
-            return "StringBox {1110 880 473 152  H HL CL 32 Style \"LSN太角ゴシック体\" Size 58 100 Color { 0 0 0 255   AntiAlias 2 }Proportional \"" + message + "\" }";
+            return "StringBox {1110 880 473 152  H HL CL 32 Style \"LSN太明朝体\" Size 58 100 Color { 0 0 0 255   AntiAlias 2 }Proportional \"" + message + "\" }";
         }
 
         public override void Kumitate(MyPrismClass myPrismClass, string[] strs)
