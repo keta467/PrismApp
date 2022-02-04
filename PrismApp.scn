@@ -8,26 +8,30 @@ Frame "scene" {
 		}
 	}
 	Image "イメージ" {
+		0 404 900 640  CC 
+		Path "D:\\PrismApp\\scene\\images" 
+		Name "import.png" 0 
+		Resize byRect 
+	} 
+	Image "イメージ" {
 		0 0 1920 1080  CC 
 		Path "D:\\PrismApp\\scene\\images" 
-		Name "梅フレーム.png" 0 
+		Name "KOフレーム.png" 0 
 	} 
 	StringBox {
-		213 213 1495 658  H CL CL 44 
-		Style "LSN太角ゴシック体" 
-		Size 74 100 
+		949 322 902 412  H HLl CL 32 
+		Style "LSN太明朝体" 
+		Size 63 100 
 		Color { 0 0 0 255   AntiAlias 2 }
-		Space -20 
 		Proportional 
-		"●●さんは、入社以来永きに渡り●●発展の為に、\n" 
-		"常に多くの社員の先頭に立って多大な貢献をされました。\n" 
-		"この度定年を迎えるに当たり、\n" 
-		"お世話になった社員一同、深く感謝申し上げます。" 
+		"ご結婚おめでとうございます。\n" 
+		"これからはお二人で力を合わせて\n" 
+		"末永く幸せになってね！" 
 	} 
 	StringBox {
-		1320 790 473 152  H HL CL 32 
-		Style "LSN太角ゴシック体" 
-		Size 58 100 
+		1249 766 452 168  H HLl CL 32 
+		Style "LSN太明朝体" 
+		Size 63 100 
 		Color { 0 0 0 255   AntiAlias 2 }
 		Proportional 
 		"ラム太" 
