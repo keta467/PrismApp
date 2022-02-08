@@ -15,17 +15,17 @@ namespace PrismApp
         {
             //通信機能
             var ThisServer = ConfigurationManager.AppSettings["ThisServer"];
-            // var thisServer = "localhost";
-            var prismLink = $"https://{ThisServer}/prism/";
 
-            Console.WriteLine($"PrismServer Start at {prismLink}");
+            Console.WriteLine($"PrismServer Start at {ThisServer}");
 
             //Httpサーバー生成
             HttpListener listener = new HttpListener();
 
             listener.Prefixes.Clear();
-            listener.Prefixes.Add(prismLink);
-            //listener.Prefixes.Add("http://localhost/prism/");
+            listener.Prefixes.Add(ThisServer);
+
+
+
             listener.Start();
 
             // Webメインループ
