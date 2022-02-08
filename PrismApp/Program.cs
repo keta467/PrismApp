@@ -4,6 +4,8 @@ using System.IO;
 using PRISMPLAYERLib;
 using Newtonsoft.Json;
 using System.Configuration;
+using System.Runtime.InteropServices;
+using System.Reflection;
 
 namespace PrismApp
 {
@@ -16,15 +18,16 @@ namespace PrismApp
             //通信機能
             var thisServer = ConfigurationManager.AppSettings["ThisServer"];
             // var thisServer = "localhost";
-            var prismLink = $"http://{thisServer}/prism/";
+            var prismLink = $"https://{thisServer}:42944/prism/";
 
             Console.WriteLine($"PrismServer Start at {prismLink}");
+
             //Httpサーバー生成
             HttpListener listener = new HttpListener();
 
             listener.Prefixes.Clear();
             listener.Prefixes.Add(prismLink);
-
+            //listener.Prefixes.Add("http://localhost/prism/");
             listener.Start();
 
             // Webメインループ

@@ -10,35 +10,42 @@ Frame "scene" {
 	Image "イメージ" {
 		0 0 1920 1080  CC 
 		Path "D:\\PrismApp\\scene\\images" 
-		Name "トルコ桔梗フレーム.png" 0 
+		Name "花フレーム.png" 0 
 	} 
 	StringBox {
-		267 160 998 112  H HL H 30 
-		Style "LSN太明朝体" 
-		Size 96 100 
-		Color { 255 255 255 255   AntiAlias 2 }
-		Space 60 
+		353 323 1215 112  H CL C 32 
+		Style "LSN太角ゴシック体" 
+		Size 86 100 
+		Color { 228 0 127 255   AntiAlias 2 }
+		Effect {
+			Edge {
+				4 
+				Color { 255 255 255 255  }
+			}
+			GaussDrop {
+				1 SE  ShadeRate 10 
+				Color { 0 0 0 128  }
+			}
+		}
 		Proportional 
-		"心よりお悔やみ\n" 
-		"申し上げます" 
+		"ご出産おめでとうございます!" 
 	} 
 	StringBox {
-		284 525 985 410  H HLl HL 36 
-		Style "LSN太明朝体" 
-		Size 58 100 
-		Color { 0 0 0 255   AntiAlias 2 }
+		382 468 1195 286  H HL CL 32 
+		Style "LSN太角ゴシック体" 
+		Size 54 100 
+		Color { 228 0 127 255   AntiAlias 2 }
 		Proportional 
-		"突然の訃報に接し、\n" 
-		"心から哀悼の意を表しますとともに、\n" 
-		"安らかにご永眠されますよう\n" 
-		"お祈りいたします。" 
+		"●●さん、出産お疲れさまでした。\n" 
+		"新しい家族と一緒に幸せな家庭を築いていってください。\n" 
+		"また会えるときを楽しみにしています。" 
 	} 
 	StringBox {
-		1110 880 473 152  H HL CL 32 
-		Style "LSN太明朝体" 
-		Size 58 100 
-		Color { 0 0 0 255   AntiAlias 2 }
+		1234 726 531 164  H HL CL 32 
+		Style "LSN太角ゴシック体" 
+		Size 54 100 
+		Color { 228 0 127 255   AntiAlias 2 }
 		Proportional 
-		"ラム太" 
+		"ラム太dv" 
 	} 
 } 
