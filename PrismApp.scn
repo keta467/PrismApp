@@ -10,42 +10,25 @@ Frame "scene" {
 	Image "イメージ" {
 		0 0 1920 1080  CC 
 		Path "D:\\PrismApp\\scene\\images" 
-		Name "花フレーム.png" 0 
+		Name "リボンフレーム.png" 0 
 	} 
 	StringBox {
-		353 323 1215 112  H CL C 32 
+		374 285 1165 548  H HLl CL 32 
 		Style "LSN太角ゴシック体" 
-		Size 86 100 
-		Color { 228 0 127 255   AntiAlias 2 }
-		Effect {
-			Edge {
-				4 
-				Color { 255 255 255 255  }
-			}
-			GaussDrop {
-				1 SE  ShadeRate 10 
-				Color { 0 0 0 128  }
-			}
-		}
+		Size 78 100 
+		Color { 229 0 79 255   AntiAlias 2 }
 		Proportional 
-		"ご出産おめでとうございます!" 
+		"ご結婚おめでとうございます。\n" 
+		"お二人の輝かしい門出を祝福し、\n" 
+		"末永いご多幸とご家族皆様のご\n" 
+		"隆盛を祈念いたします。" 
 	} 
 	StringBox {
-		382 468 1195 286  H HL CL 32 
+		1300 780 473 152  H HL CL 32 
 		Style "LSN太角ゴシック体" 
-		Size 54 100 
-		Color { 228 0 127 255   AntiAlias 2 }
+		Size 58 100 
+		Color { 229 0 79 255   AntiAlias 2 }
 		Proportional 
-		"●●さん、出産お疲れさまでした。\n" 
-		"新しい家族と一緒に幸せな家庭を築いていってください。\n" 
-		"また会えるときを楽しみにしています。" 
-	} 
-	StringBox {
-		1234 726 531 164  H HL CL 32 
-		Style "LSN太角ゴシック体" 
-		Size 54 100 
-		Color { 228 0 127 255   AntiAlias 2 }
-		Proportional 
-		"ラム太" 
+		"ラム太です" 
 	} 
 } 
